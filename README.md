@@ -35,16 +35,16 @@ Presents quantitative results for all tested models and interprets the confusion
 
 Offers a critical assessment of limitations (such as chunk-level leakage and temporal mismatch) and proposes concrete directions for future work.
 
-Raw data (for example, under data/raw/)
+Raw data (宋明)
 
 Original Classical Chinese source texts in plain-text format, organized into subdirectories by genre (for example, SongMing_History, NeoConfucianism, SchoolOfMind). These are the inputs from which the chunk-level dataset is derived.
 
-Processed data (for example, under data/processed/)
+Processed data
 
 CSV files produced by the notebook, such as:
 
-chunks_full.csv: all genre-labeled chunks, with columns for the text, label, source file, and chunk ID.
+labeled_chunks.csv: all genre-labeled chunks, with columns for the text, label, source file, and chunk ID.
 
-train.csv: the 80 percent training split used to fit the models.
+train_set.csv: the 80 percent training split used to fit the models.
 
-test.csv: the 20 percent held-out test split used to evaluate generalization performance.
+test_set.csv: the 20 percent held-out test split used to evaluate generalization performance.
