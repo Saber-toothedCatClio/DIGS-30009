@@ -1,5 +1,5 @@
 # DIGS-30009
-Project Description
+**Project Description**
 
 This project builds a supervised machine learning pipeline to classify short segments of Classical Chinese texts into three genre categories: Song–Ming History, Neo-Confucianism (Lixue), and School of Mind (Xinxue). The corpus consists of 20 historical and philosophical works from the Pre-Qin and Song–Ming periods. These texts are split into short character-level chunks, transformed into TF-IDF features, and used to train and compare several classifiers, including Multinomial Naive Bayes, Logistic Regression, Linear Support Vector Machines, RBF-kernel SVM, K-Nearest Neighbors, and Random Forest. The project combines exploratory data analysis of genre signals in Classical Chinese with a critical discussion of challenges such as class imbalance, data leakage between training and test sets, and temporal heterogeneity across periods.
 
